@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate-slideRight {
+  transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  transform: translateX(-30px);
+  opacity: 0;
+}
+.animate-slideRight.in-view {
+  transform: translateX(0);
+  opacity: 1;
+}
