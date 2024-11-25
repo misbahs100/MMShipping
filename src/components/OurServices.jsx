@@ -1,6 +1,10 @@
 import React, { useEffect } from "react";
 import Query from "./Query";
 import { Link } from "react-router-dom";
+import pic1 from '../assets/Picture1.png'
+import pic2 from '../assets/Picture2.png'
+import pic3 from '../assets/Picture3.png'
+import ser from '../assets/ship2.jpg'
 
 const OurServices = () => {
     useEffect(() => {
@@ -12,7 +16,7 @@ const OurServices = () => {
       <section
         style={{
           backgroundImage:
-            "url(http://mmshipping.com/assets/img/main/ship2.jpg)",
+            `url(${ser})`,
         }}
         className="bg-no-repeat bg-cover py-40 px-4 relative"
       >
@@ -42,7 +46,7 @@ const OurServices = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture1.png"
+                    src={pic1}
                     alt="Chartering"
                     className="w-24 mb-4"
                   />
@@ -62,7 +66,7 @@ const OurServices = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture1.png"
+                    src={pic1}
                     alt="Chartering"
                     className="w-24 mb-4"
                   />
@@ -82,7 +86,7 @@ const OurServices = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture2.png"
+                    src={pic2}
                     alt="Bunkering"
                     className="w-24 mb-4"
                   />
@@ -102,7 +106,7 @@ const OurServices = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture3.png"
+                    src={pic3}
                     alt="Store Supplies"
                     className="w-24 mb-4"
                   />

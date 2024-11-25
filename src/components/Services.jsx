@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
+import pic1 from '../assets/Picture1.png'
+import pic2 from '../assets/Picture2.png'
+import pic3 from '../assets/Picture3.png'
 
 const Services = () => {
     const sectionRef = useRef(null);
@@ -42,7 +45,7 @@ const Services = () => {
               <Link to="/supplies">
                 <div className=" flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture1.png"
+                    src={pic1}
                     alt="Chartering"
                     className="w-24 mb-4"
                   />
@@ -62,7 +65,7 @@ const Services = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture1.png"
+                    src={pic2}
                     alt="Chartering"
                     className="w-24 mb-4"
                   />
@@ -82,7 +85,7 @@ const Services = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture2.png"
+                    src={pic2}
                     alt="Bunkering"
                     className="w-24 mb-4"
                   />
@@ -102,7 +105,7 @@ const Services = () => {
               <Link to="/supplies">
                 <div className="flex flex-col items-center">
                   <img
-                    src="http://mmshipping.com/assets/img/Picture3.png"
+                    src={pic3}
                     alt="Store Supplies"
                     className="w-24 mb-4"
                   />

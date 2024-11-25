@@ -1,4 +1,5 @@
 import React from "react";
+import pic from '../assets/mralam.jpg'
 
 const Message = () => {
   return (
@@ -16,7 +17,7 @@ const Message = () => {
           {/* Circle Image of Owner */}
           <div className="flex-shrink-0">
             <img
-              src="http://mmshipping.com/assets/img/testimonials/mralam.JPG" // Replace with the actual path of the image
+              src={pic}
               alt="Owner"
               className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mx-auto"
             />

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ship3 from '../assets/ship3.jpg'
 
 const About = () => {
   useEffect(() => {
@@ -10,7 +11,7 @@ const About = () => {
       <section
         style={{
           backgroundImage:
-            "url(http://mmshipping.com/assets/img/main/ship3.jpg)",
+            `url(${ship3})`,
         }}
         className="bg-no-repeat bg-cover h-screen py-[50vh] px-4 relative"
       >

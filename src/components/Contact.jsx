@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Inquire from "./Inquire";
+import sing from '../assets/singapore1.jpg'
 
 const Contact = () => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const Contact = () => {
       <section
         style={{
           backgroundImage:
-            "url(http://mmshipping.com/assets/img/main/singapore1.jpg)",
+            `url(${sing})`,
         }}
         className="bg-no-repeat bg-cover py-40 px-4 relative"
       >

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link to="/">
             <img
-              src="http://mmshipping.com/assets/img/misc/logo2.png"
+              src={logo}
               alt="MM Shipping Logo"
               className="h-8 md:h-10"
             />

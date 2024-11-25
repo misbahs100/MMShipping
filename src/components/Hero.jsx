@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import heroVid from '../assets/mmshipping.mp4'
+import logo from '../assets/logo.png'
 
 const Hero = () => {
   const texts = ["Quality", "Assurance", "Commitment"]; // Texts to display
@@ -28,7 +30,7 @@ const Hero = () => {
         playsInline
       >
         <source
-          src="http://mmshipping.com/assets/img/main/mmshipping.mp4"
+          src={heroVid}
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -40,7 +42,7 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <img
-          src="http://mmshipping.com/assets/img/misc/logo2.png"
+          src={logo}
           alt="MM Shipping Logo"
           className="h-32 md:h-48 mb-6"
         />
